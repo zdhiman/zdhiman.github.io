@@ -1,0 +1,4 @@
+Sitemap: https://zdhiman.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: zdhiman.github.io
