@@ -7,4 +7,10 @@
 .. description: 
 .. type: text
 
-Write your post here.
+What is Generative AI?
+
+A Practitioner's Primer for Business Leaders
+
+TL;DR
+
+* Generative AI creates new content - text, code, images - rather than simply classifying or analyzing existing data
