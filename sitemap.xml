@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://zdhiman.github.io/archive.html</loc>
-  <lastmod>2026-03-16T00:45:00Z</lastmod>
+  <lastmod>2026-03-16T09:32:00Z</lastmod>
  </url>
  <url>
   <loc>https://zdhiman.github.io/authors/</loc>
@@ -43,11 +43,23 @@
  </url>
  <url>
   <loc>https://zdhiman.github.io/categories/</loc>
-  <lastmod>2026-03-16T00:24:00Z</lastmod>
+  <lastmod>2026-03-16T09:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zdhiman.github.io/categories/artificial-intelligence/</loc>
+  <lastmod>2026-03-16T09:24:00Z</lastmod>
  </url>
  <url>
   <loc>https://zdhiman.github.io/categories/blog/</loc>
   <lastmod>2026-03-16T00:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zdhiman.github.io/categories/business-strategy/</loc>
+  <lastmod>2026-03-16T09:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zdhiman.github.io/categories/cat_ai/</loc>
+  <lastmod>2026-03-16T09:24:00Z</lastmod>
  </url>
  <url>
   <loc>https://zdhiman.github.io/categories/cat_nikola/</loc>
@@ -58,12 +70,20 @@
   <lastmod>2026-03-16T00:24:00Z</lastmod>
  </url>
  <url>
+  <loc>https://zdhiman.github.io/categories/generative-ai/</loc>
+  <lastmod>2026-03-16T09:24:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://zdhiman.github.io/categories/nikola/</loc>
   <lastmod>2026-03-16T00:24:00Z</lastmod>
  </url>
  <url>
   <loc>https://zdhiman.github.io/categories/python/</loc>
   <lastmod>2026-03-16T00:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zdhiman.github.io/categories/technology/</loc>
+  <lastmod>2026-03-16T09:24:00Z</lastmod>
  </url>
  <url>
   <loc>https://zdhiman.github.io/galleries/</loc>
@@ -83,7 +103,7 @@
  </url>
  <url>
   <loc>https://zdhiman.github.io/listings/hello.py.html</loc>
-  <lastmod>2026-03-16T00:45:00Z</lastmod>
+  <lastmod>2026-03-16T09:32:00Z</lastmod>
  </url>
  <url>
   <loc>https://zdhiman.github.io/pages/</loc>
