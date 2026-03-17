@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://zdhiman.github.io/authors/anubhav-dhiman.xml</loc>
-  <lastmod>2026-03-16T09:24:00Z</lastmod>
+  <lastmod>2026-03-17T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://zdhiman.github.io/authors/roberto-alsina.xml</loc>
@@ -15,7 +15,7 @@
  </sitemap>
  <sitemap>
   <loc>https://zdhiman.github.io/categories/artificial-intelligence.xml</loc>
-  <lastmod>2026-03-16T09:24:00Z</lastmod>
+  <lastmod>2026-03-17T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://zdhiman.github.io/categories/blog.xml</loc>
@@ -27,7 +27,7 @@
  </sitemap>
  <sitemap>
   <loc>https://zdhiman.github.io/categories/cat_ai.xml</loc>
-  <lastmod>2026-03-16T09:24:00Z</lastmod>
+  <lastmod>2026-03-17T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://zdhiman.github.io/categories/cat_nikola.xml</loc>
@@ -39,11 +39,19 @@
  </sitemap>
  <sitemap>
   <loc>https://zdhiman.github.io/categories/generative-ai.xml</loc>
-  <lastmod>2026-03-16T09:24:00Z</lastmod>
+  <lastmod>2026-03-17T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://zdhiman.github.io/categories/nikola.xml</loc>
   <lastmod>2026-03-16T00:24:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://zdhiman.github.io/categories/productivity.xml</loc>
+  <lastmod>2026-03-17T20:28:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://zdhiman.github.io/categories/prompt-engineering.xml</loc>
+  <lastmod>2026-03-17T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://zdhiman.github.io/categories/python.xml</loc>
@@ -63,10 +71,10 @@
  </sitemap>
  <sitemap>
   <loc>https://zdhiman.github.io/rss.xml</loc>
-  <lastmod>2026-03-16T09:24:00Z</lastmod>
+  <lastmod>2026-03-17T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://zdhiman.github.io/sitemap.xml</loc>
-  <lastmod>2026-03-16T09:32:00Z</lastmod>
+  <lastmod>2026-03-17T20:28:00Z</lastmod>
  </sitemap>
 </sitemapindex>

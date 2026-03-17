@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://zdhiman.github.io/archive.html</loc>
-  <lastmod>2026-03-16T09:32:00Z</lastmod>
+  <lastmod>2026-03-17T20:28:00Z</lastmod>
  </url>
  <url>
   <loc>https://zdhiman.github.io/authors/</loc>
@@ -34,6 +34,10 @@
   <lastmod>2026-03-16T00:40:00Z</lastmod>
  </url>
  <url>
+  <loc>https://zdhiman.github.io/blog/prompt-engineering-writing-better-prompts/</loc>
+  <lastmod>2026-03-17T20:28:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://zdhiman.github.io/blog/welcome-to-nikola/</loc>
   <lastmod>2026-03-16T00:40:00Z</lastmod>
  </url>
@@ -43,7 +47,7 @@
  </url>
  <url>
   <loc>https://zdhiman.github.io/categories/</loc>
-  <lastmod>2026-03-16T09:24:00Z</lastmod>
+  <lastmod>2026-03-17T20:28:00Z</lastmod>
  </url>
  <url>
   <loc>https://zdhiman.github.io/categories/artificial-intelligence/</loc>
@@ -76,6 +80,14 @@
  <url>
   <loc>https://zdhiman.github.io/categories/nikola/</loc>
   <lastmod>2026-03-16T00:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zdhiman.github.io/categories/productivity/</loc>
+  <lastmod>2026-03-17T20:28:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zdhiman.github.io/categories/prompt-engineering/</loc>
+  <lastmod>2026-03-17T20:28:00Z</lastmod>
  </url>
  <url>
   <loc>https://zdhiman.github.io/categories/python/</loc>

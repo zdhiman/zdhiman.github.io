@@ -11,7 +11,7 @@
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="rss.xml">
 <link rel="canonical" href="https://zdhiman.github.io/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="blog/what-is-generative-ai/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="blog/prompt-engineering-writing-better-prompts/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -71,7 +71,105 @@
     
         
     <div class="postindex">
-            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="blog/what-is-generative-ai/" class="u-url">What is Generative AI?</a></h1>
+            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="blog/prompt-engineering-writing-better-prompts/" class="u-url">Prompt Engineering: How to Write Better Prompts</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        <a href="authors/anubhav-dhiman/">Anubhav Dhiman</a>
+                    </span></p>
+            <p class="dateline">
+            <a href="blog/prompt-engineering-writing-better-prompts/" rel="bookmark">
+            <time class="published dt-published" datetime="2026-03-17T10:00:00+01:00" itemprop="datePublished" title="2026-03-17 10:00">2026-03-17 10:00</time></a>
+            </p>
+                        <p class="commentline">
+    
+
+
+                </p>
+</div>
+            </header><div class="e-content entry-content">
+                    <p class="lead"><em>A Practical Guide for Getting More from AI</em></p>
+<hr class="docutils">
+<nav class="contents local" id="in-this-article" role="doc-toc"><p class="topic-title"><a class="reference internal" href="blog/prompt-engineering-writing-better-prompts/#top">In this article</a></p>
+<ul class="simple">
+<li><p><a class="reference internal" href="blog/prompt-engineering-writing-better-prompts/#tl-dr" id="toc-entry-1">TL;DR</a></p></li>
+<li><p><a class="reference internal" href="blog/prompt-engineering-writing-better-prompts/#what-prompt-engineering-is" id="toc-entry-2">What Prompt Engineering Is</a></p></li>
+<li><p><a class="reference internal" href="blog/prompt-engineering-writing-better-prompts/#why-it-matters-now" id="toc-entry-3">Why It Matters Now</a></p></li>
+<li><p><a class="reference internal" href="blog/prompt-engineering-writing-better-prompts/#be-clear-and-direct" id="toc-entry-4">Be Clear and Direct</a></p></li>
+<li><p><a class="reference internal" href="blog/prompt-engineering-writing-better-prompts/#be-specific-with-guidelines" id="toc-entry-5">Be Specific with Guidelines</a></p></li>
+<li><p><a class="reference internal" href="blog/prompt-engineering-writing-better-prompts/#structure-your-prompts" id="toc-entry-6">Structure Your Prompts</a></p></li>
+<li><p><a class="reference internal" href="blog/prompt-engineering-writing-better-prompts/#provide-examples" id="toc-entry-7">Provide Examples</a></p></li>
+<li><p><a class="reference internal" href="blog/prompt-engineering-writing-better-prompts/#ask-for-step-by-step-reasoning" id="toc-entry-8">Ask for Step-by-Step Reasoning</a></p></li>
+<li><p><a class="reference internal" href="blog/prompt-engineering-writing-better-prompts/#iterate-and-evaluate" id="toc-entry-9">Iterate and Evaluate</a></p></li>
+<li><p><a class="reference internal" href="blog/prompt-engineering-writing-better-prompts/#putting-it-all-together" id="toc-entry-10">Putting It All Together</a></p></li>
+<li><p><a class="reference internal" href="blog/prompt-engineering-writing-better-prompts/#takeaways" id="toc-entry-11">Takeaways</a></p></li>
+</ul></nav><hr class="docutils">
+<section id="tl-dr"><h2><a class="toc-backref" href="blog/prompt-engineering-writing-better-prompts/#toc-entry-1" role="doc-backlink">TL;DR</a></h2>
+<ul class="simple">
+<li><p>Prompt engineering is the practice of <strong>writing clearer, more structured inputs</strong> to get reliable, high-quality outputs from language models.</p></li>
+<li><p>The single highest-leverage change is being direct: lead with an action verb and specify exactly what you want, in what format, and for whom.</p></li>
+<li><p>Adding specific guidelines — desired attributes, step-by-step reasoning instructions, or both — can dramatically improve output quality.</p></li>
+<li><p>Structuring your prompts with XML tags or clear delimiters helps models distinguish your instructions from the data they need to process.</p></li>
+<li><p>Providing concrete examples of ideal outputs remains one of the most effective techniques, especially for edge cases, complex formats, and nuanced tone.</p></li>
+</ul></section><hr class="docutils">
+<section id="what-prompt-engineering-is"><h2><a class="toc-backref" href="blog/prompt-engineering-writing-better-prompts/#toc-entry-2" role="doc-backlink">What Prompt Engineering Is</a></h2>
+<p>If you have used an AI assistant for more than five minutes, you have already done prompt engineering — you just may not have done it well. Every time you type a request into a language model, that input is a prompt. Prompt engineering is the deliberate practice of refining those inputs to get outputs that are more accurate, more useful, and more consistent.</p>
+<p>The gap between a casual prompt and a well-crafted one is not subtle. A vague request like "write something about our product" will return generic filler. A specific prompt — one that defines the task, the audience, the format, and the constraints — will return something you can actually use. The difference often isn't the model's capability; it's the quality of the instruction.</p>
+<p>This matters more than it might seem. As language models are increasingly embedded in professional workflows — drafting communications, synthesizing research, generating code, analyzing data — the ability to communicate precisely with these systems becomes a genuine competitive advantage. It is not a niche technical skill. It is a communication skill, applied to a new kind of collaborator.</p>
+</section><section id="why-it-matters-now"><h2><a class="toc-backref" href="blog/prompt-engineering-writing-better-prompts/#toc-entry-3" role="doc-backlink">Why It Matters Now</a></h2>
+<p>The models have gotten dramatically more capable over the past two years, but capability without direction is wasted potential. A model that can draft a nuanced strategy memo will still produce a mediocre one if the prompt gives it nothing to work with.</p>
+<p>There is a practical reason this skill is becoming more urgent. As organizations move from experimentation to production — running prompts thousands of times across automated workflows — the quality of each prompt compounds. A prompt that works 70% of the time is a liability at scale. One that works 95% of the time is an asset. The difference between those two is usually a few minutes of thoughtful prompt design.</p>
+<p>The techniques that follow are not theoretical. They are the patterns that consistently produce better results across models, tasks, and domains.</p>
+</section><section id="be-clear-and-direct"><h2><a class="toc-backref" href="blog/prompt-engineering-writing-better-prompts/#toc-entry-4" role="doc-backlink">Be Clear and Direct</a></h2>
+<p>The most impactful improvement you can make to any prompt is also the simplest: say exactly what you want. Lead with an action verb. State the task in the first sentence. Specify the output format, length, and audience if they matter — and they usually do.</p>
+<p>Consider the difference between these two prompts:</p>
+<p><strong>Weak:</strong> "I need help with meal planning."</p>
+<p><strong>Strong:</strong> "Generate a one-day meal plan for an athlete who weighs 80kg and is 180cm tall. The plan should meet a 3,000-calorie target, accommodate a gluten-free diet, and include macronutrient breakdowns for each meal."</p>
+<p>The first prompt forces the model to guess at nearly everything: who the plan is for, what constraints apply, how detailed the output should be. The second prompt eliminates ambiguity. The model knows the task, the audience, the constraints, and the expected level of detail. In evaluations, this kind of clarity alone can nearly double the quality score of a model's output.</p>
+<p>The principle extends to every domain. "Summarize this report" is weaker than "Summarize this report in three bullet points for a VP audience, focusing on budget implications." "Help me with this code" is weaker than "Debug this Python function that is returning a TypeError on line 12 when processing empty lists."</p>
+<p>Directness is not rudeness. It is respect for how these systems work — they perform best when they do not have to infer your intent.</p>
+</section><section id="be-specific-with-guidelines"><h2><a class="toc-backref" href="blog/prompt-engineering-writing-better-prompts/#toc-entry-5" role="doc-backlink">Be Specific with Guidelines</a></h2>
+<p>Clarity gets you in the right neighbourhood. Specificity gets you to the right address.</p>
+<p>There are two forms of specificity that work particularly well in prompts, and they serve different purposes.</p>
+<p>The first is <strong>attribute-based guidance</strong>: telling the model what qualities the output should have. This includes things like length, tone, format, structure, reading level, or any other measurable characteristic. If you want a 200-word summary in a professional tone formatted as a numbered list, say so. Models are remarkably good at following these constraints when they are stated explicitly — and remarkably bad at guessing them when they are not.</p>
+<p>The second is <strong>step-based guidance</strong>: telling the model how to think through the problem. This is especially valuable for complex tasks where you want the model to consider factors it might otherwise skip. For a meal planning prompt, this might mean instructing the model to first calculate caloric needs, then distribute macronutrients across meals, then check against dietary restrictions, and finally format the result. For a business analysis, it might mean asking the model to consider the problem from multiple stakeholder perspectives before recommending a course of action.</p>
+<p>In practice, the strongest prompts combine both forms. You define what the output should look like <em>and</em> how the model should arrive at it. This combination of output constraints and reasoning instructions gives you control over both the destination and the route.</p>
+</section><section id="structure-your-prompts"><h2><a class="toc-backref" href="blog/prompt-engineering-writing-better-prompts/#toc-entry-6" role="doc-backlink">Structure Your Prompts</a></h2>
+<p>When a prompt involves more than a simple question — when it includes background context, reference data, examples, or multi-part instructions — structure becomes essential.</p>
+<p>The most effective structuring technique for language models is the use of <strong>XML tags</strong> to delineate different sections of a prompt. Rather than concatenating instructions, data, and context into a single wall of text, you wrap each component in descriptive tags. Athlete information goes inside <code class="docutils literal">&lt;athlete_information&gt;</code> tags. Code that needs debugging goes inside <code class="docutils literal">&lt;my_code&gt;</code> tags. Reference documentation goes inside <code class="docutils literal">&lt;docs&gt;</code> tags.</p>
+<p>This is not ceremonial. Language models process your entire prompt as a sequence of tokens, and they use contextual cues to determine what each section represents. Clear boundaries make it significantly easier for the model to distinguish your instructions from the data it should process, your examples from the actual task, and your constraints from your context.</p>
+<p>Tag naming matters. Descriptive, specific names — <code class="docutils literal">&lt;sales_records&gt;</code> rather than <code class="docutils literal">&lt;data&gt;</code>, <code class="docutils literal">&lt;grading_rubric&gt;</code> rather than <code class="docutils literal">&lt;info&gt;</code> — give the model additional signal about how to interpret the enclosed content. This is especially important when prompts grow longer or when you are interpolating variable content from external sources.</p>
+<p>Even for shorter prompts, wrapping interpolated content in tags is a good habit. It makes the prompt's intent unambiguous and reduces the chance of the model confusing one part of your input for another.</p>
+</section><section id="provide-examples"><h2><a class="toc-backref" href="blog/prompt-engineering-writing-better-prompts/#toc-entry-7" role="doc-backlink">Provide Examples</a></h2>
+<p>If you could only use one advanced prompting technique, this would be the one to choose.</p>
+<p>Providing examples — known as <strong>few-shot prompting</strong> — is the practice of including one or more sample input-output pairs in your prompt to show the model exactly what you expect. One example is "one-shot" prompting. Multiple examples are "multi-shot." Both can dramatically improve output quality, especially for tasks where the desired format, tone, or reasoning style is difficult to describe in words alone.</p>
+<p>Examples are particularly powerful in three scenarios. The first is <strong>edge cases and nuance</strong>. If your task involves detecting sarcasm, handling ambiguous inputs, or making judgment calls, showing the model how to handle a tricky case is far more effective than describing the rule abstractly. The second is <strong>complex output formats</strong>. If you need the model to produce structured JSON, a specific table format, or a multi-section report with a particular layout, an example is worth a hundred words of description. The third is <strong>calibrating quality and style</strong>. An example of an ideal response sets a concrete standard that instructions alone cannot match.</p>
+<p>The technique is most effective when examples are wrapped in clear XML tags to separate them from the actual task, and when they are accompanied by brief explanations of <em>why</em> the example represents an ideal output. This combination — showing what good looks like and explaining what makes it good — gives the model both a target and a rationale.</p>
+</section><section id="ask-for-step-by-step-reasoning"><h2><a class="toc-backref" href="blog/prompt-engineering-writing-better-prompts/#toc-entry-8" role="doc-backlink">Ask for Step-by-Step Reasoning</a></h2>
+<p>Some tasks require the model to think before it answers. For problems involving arithmetic, multi-step logic, comparative analysis, or any form of sequential reasoning, explicitly asking the model to show its work can meaningfully improve accuracy.</p>
+<p>This technique, often called <strong>chain-of-thought prompting</strong>, was first demonstrated in a 2022 research paper by Wei et al. at Google. The researchers found that prompting models to generate intermediate reasoning steps before arriving at a final answer significantly improved performance on arithmetic, commonsense, and symbolic reasoning tasks. In some cases, the improvement was substantial — the technique helped a large model achieve state-of-the-art results on math benchmarks that it could not solve with standard prompting.</p>
+<p>The simplest implementation is to append a phrase like "think through this step by step" or "explain your reasoning before giving the final answer." For more complex tasks, you can provide an example that demonstrates the desired reasoning chain, showing the model the kind of intermediate steps you expect.</p>
+<p>A practical nuance worth noting: recent research from Wharton suggests that the value of explicit chain-of-thought prompting has decreased as models have become more capable, since many newer models now perform some form of internal step-by-step reasoning by default. The technique remains most valuable for genuinely complex multi-step problems and for situations where you need transparency into the model's reasoning process — not as a universal default for every prompt.</p>
+</section><section id="iterate-and-evaluate"><h2><a class="toc-backref" href="blog/prompt-engineering-writing-better-prompts/#toc-entry-9" role="doc-backlink">Iterate and Evaluate</a></h2>
+<p>The best prompts are rarely written in a single pass. They are developed through iteration: write a prompt, test it against several inputs, identify where the output falls short, and refine.</p>
+<p>This is where prompt engineering most closely resembles traditional engineering. You are not crafting a single message; you are designing an instruction set that needs to perform reliably across a range of inputs. The process looks like this: start with a clear, direct prompt. Run it against a representative set of test cases. Examine the failures — not just the obvious errors, but the subtle ones: outputs that are technically correct but miss the point, or that satisfy the letter of your instructions but not the spirit.</p>
+<p>Each failure reveals a gap in your prompt. Maybe the model is ignoring a constraint because it was buried in the middle of a long paragraph. Maybe it is making assumptions you did not anticipate because you left a variable unspecified. Maybe it handles the typical case well but falls apart on edge cases. Each of these observations becomes a targeted improvement.</p>
+<p>Over time, you develop an intuition for what makes prompts effective — but that intuition is built on reps, not theory. The practitioners who write the best prompts are the ones who test systematically and refine deliberately.</p>
+</section><section id="putting-it-all-together"><h2><a class="toc-backref" href="blog/prompt-engineering-writing-better-prompts/#toc-entry-10" role="doc-backlink">Putting It All Together</a></h2>
+<p>None of these techniques exist in isolation. The most effective prompts typically combine several of them: a clear and direct opening, specific attribute and step-based guidelines, structured XML tags around any interpolated content, one or two well-chosen examples, and an explicit instruction to reason through complex steps.</p>
+<p>Here is how these layers might combine for a real task:</p>
+<p>A prompt that says "help me with a business analysis" becomes one that says: "Analyse the following quarterly sales data. For each product line, calculate year-over-year growth, identify the top and bottom performers, and flag any anomalies. Present your findings as a three-paragraph executive summary suitable for a board audience. Before writing the summary, reason through the data trends step by step." The sales data itself is wrapped in <code class="docutils literal">&lt;sales_data&gt;</code> tags, and a brief example of an ideal summary is provided in <code class="docutils literal">&lt;example&gt;</code> tags.</p>
+<p>The difference in output quality between the casual version and the engineered version is not marginal. It is the difference between getting something you have to rewrite and getting something you can use.</p>
+</section><section id="takeaways"><h2><a class="toc-backref" href="blog/prompt-engineering-writing-better-prompts/#toc-entry-11" role="doc-backlink">Takeaways</a></h2>
+<ol class="arabic simple">
+<li><p><strong>Lead with clarity.</strong> Start every prompt with an action verb and a direct statement of the task. Specify format, length, audience, and constraints upfront.</p></li>
+<li><p><strong>Add guidelines for both output and reasoning.</strong> Tell the model what the result should look like <em>and</em> how to think through the problem.</p></li>
+<li><p><strong>Use structure.</strong> XML tags, clear section breaks, and descriptive labels help models parse complex prompts accurately.</p></li>
+<li><p><strong>Show, don't just tell.</strong> Concrete examples of ideal outputs are more powerful than abstract descriptions of what you want.</p></li>
+<li><p><strong>Iterate deliberately.</strong> Treat prompt development like engineering: test against varied inputs, diagnose failures, and refine based on evidence.</p></li>
+<li><p><strong>Match technique to task.</strong> Not every prompt needs every technique. Simple questions need simple prompts. Reserve the full toolkit for complex, high-stakes, or repeated tasks where reliability matters.</p></li>
+</ol></section>
+</div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="blog/what-is-generative-ai/" class="u-url">What is Generative AI?</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                         <a href="authors/anubhav-dhiman/">Anubhav Dhiman</a>
